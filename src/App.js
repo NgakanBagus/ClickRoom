@@ -2,11 +2,11 @@ import './App.css';
 import LoginSignup from './Components/LoginSignup/LoginSignup';
 import BeforeLogin from './Components/BeforeLogin/BeforeLogin';
 import Analytics from './Components/Analytics';
-import Cards from './Components/Cards';
+import Benefit from './Components/Benefit';
 import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
-import Newsletter from './Components/Newsletter';
+import Featured from './Components/Featured';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <Navbar />
       <Hero />
       <Analytics />
-      <Newsletter />
-      <Cards />
+      <Featured />
+      <Benefit />
       <Footer />
     </div>
   );
